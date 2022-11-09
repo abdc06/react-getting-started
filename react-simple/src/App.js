@@ -5,6 +5,7 @@ import About from './pages/About';
 import Counter from './pages/Counter';
 import Input from './pages/Input';
 import Form from './pages/Form';
+import List from './pages/List';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <li><Link to="/counter">Counter</Link></li>
           <li><Link to="/input">Input</Link></li>
           <li><Link to="/form">Form</Link></li>
+          <li><Link to="/list">List</Link></li>
         </ul>
       </nav>
       <Routes>
@@ -24,6 +26,7 @@ function App() {
         <Route path="/counter" element={<Counter />} />
         <Route path="/input" element={<Input />} />
         <Route path="/form" element={<Form />} />
+        <Route path="/list" element={<List />} />
       </Routes>
     </div>
   );
