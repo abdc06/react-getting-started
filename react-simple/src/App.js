@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Counter from './pages/Counter';
 import Input from './pages/Input';
+import Form from './pages/Form';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <li><Link to="/about">About</Link></li>
           <li><Link to="/counter">Counter</Link></li>
           <li><Link to="/input">Input</Link></li>
+          <li><Link to="/form">Form</Link></li>
         </ul>
       </nav>
       <Routes>
@@ -21,6 +23,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/counter" element={<Counter />} />
         <Route path="/input" element={<Input />} />
+        <Route path="/form" element={<Form />} />
       </Routes>
     </div>
   );
