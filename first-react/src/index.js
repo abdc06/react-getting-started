@@ -4,13 +4,15 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Library from './section03/Library';
 import Clock from './section04/Clock';
+import CommentList from './section05/CommentList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 setInterval(() => {
   root.render(
     <React.StrictMode>
-      {/* <Library /> */}
-      <Clock />
+      {/* <Library />
+      <Clock /> */}
+      <CommentList />
     </React.StrictMode>
   );
 }, 1000);
