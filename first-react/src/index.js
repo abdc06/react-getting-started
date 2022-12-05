@@ -6,6 +6,7 @@ import Library from './section03/Library';
 import Clock from './section04/Clock';
 import CommentList from './section05/CommentList';
 import NotificationList from './section06/NotificationList';
+import Counter from './section07/Counter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,7 +14,8 @@ root.render(
     {/* <Library /> */}
     {/* <Clock /> */}
     {/* <CommentList /> */}
-    <NotificationList />
+    {/* <NotificationList /> */}
+    <Counter />
   </React.StrictMode>
 );
 
